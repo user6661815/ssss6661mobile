@@ -1,0 +1,27 @@
+body {
+    background-color: var(--clr-main-3);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+main > div.main-background {
+    height: 77%;
+    width: 100%;
+    background: linear-gradient(45deg, var(--clr-main-4) 0%, var(--clr-main-4) 5%, transparent 5%, transparent 10%, var(--clr-main-4) 10%, var(--clr-main-4) 15%, transparent 15%, transparent 20%, var(--clr-main-4) 20%, var(--clr-main-4) 25%, transparent 25%, transparent 30%, var(--clr-main-4) 30%, var(--clr-main-4) 35%, transparent 35%, transparent 40%, var(--clr-main-4) 40%, var(--clr-main-4) 45%, transparent 45%, transparent 50%, var(--clr-main-4) 50%, var(--clr-main-4) 55%, transparent 55%, transparent 60%, var(--clr-main-4) 60%, var(--clr-main-4) 65%, transparent 65%, transparent 70%, var(--clr-main-4) 70%, var(--clr-main-4) 75%, transparent 70%, transparent 80%, var(--clr-main-4) 80%, var(--clr-main-4) 85%, transparent 85%, transparent 90%, var(--clr-main-4) 90%, var(--clr-main-4) 95%, transparent 95%), linear-gradient(135deg, var(--clr-main-4) 0%, var(--clr-main-4) 5%, transparent 5%, transparent 10%, var(--clr-main-4) 10%, var(--clr-main-4) 15%, transparent 15%, transparent 20%, var(--clr-main-4) 20%, var(--clr-main-4) 25%, transparent 25%, transparent 30%, var(--clr-main-4) 30%, var(--clr-main-4) 35%, transparent 35%, transparent 40%, var(--clr-main-4) 40%, var(--clr-main-4) 45%, transparent 45%, transparent 50%, var(--clr-main-4) 50%, var(--clr-main-4) 55%, transparent 55%, transparent 60%, var(--clr-main-4) 60%, var(--clr-main-4) 65%, transparent 65%, transparent 70%, var(--clr-main-4) 70%, var(--clr-main-4) 75%, transparent 70%, transparent 80%, var(--clr-main-4) 80%, var(--clr-main-4) 85%, transparent 85%, transparent 90%, var(--clr-main-4) 90%, var(--clr-main-4) 95%, transparent 95%);
+    background-size: 5em 5em;
+    background-color: transparent;
+    opacity: 1;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+
+main > div.main-background .background-fade {
+    height: 77%;
+    width: 100%;
+    background: linear-gradient(180deg, transparent 0%, var(--clr-main-3) 100%);
+}
